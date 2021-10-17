@@ -1,0 +1,15 @@
+@import "./src/styles/field";
+
+.input {
+  @extend %field;
+
+  padding: 0 0 0 1rem;
+}
+
+.input, .input::placeholder {
+  color: var(--color-brand);
+}
+
+.input:focus {
+  border: 1px solid var(--color-brand);
+}

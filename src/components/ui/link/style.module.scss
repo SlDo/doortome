@@ -1,0 +1,11 @@
+.link {
+  color: var(--color-brand);
+  text-decoration: none;
+  transition: .25s;
+  outline: none;
+}
+
+.link:hover, .link:focus {
+  border-bottom: 2px solid var(--color-brand);
+  padding-bottom: 10px;
+}

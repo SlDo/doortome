@@ -1,0 +1,15 @@
+@import "./src/styles/field";
+
+.button {
+  @extend %field;
+
+  padding: 0 16px;
+  color: var(--color-brand);
+  cursor: pointer;
+  transition: .25s;
+}
+
+.button:hover, .button:focus {
+  background: var(--color-brand);
+  color: var(--color-brand-dark)
+}
